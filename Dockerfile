@@ -4,7 +4,7 @@ WORKDIR /app
 RUN pip install --no-cache-dir pillow
 RUN mkdir -p photos output
 COPY photo_processor.py .
-COPY photo/pic1.jpeg. /app/photos/.
+COPY pic1.jpeg. /app/photos/.
 
 
 RUN chmod +x photo_processor.py 
